@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+h1{
+    color: rgb(11, 84, 180);
+    text-align: center;
+    
+    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Sigmar', cursive;
+  
+}
+  .box1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(/KAMOLIDDIN.jpg);
+    background-size: cover;
+    text-align: center;
+   margin: auto;
+  }
+  .box2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 200px;
+    gap: 20px;
+   
+    
+  }
+  .a1{
+    background-image: url(/inglish.jpg);
+     background-size: cover;
+     border-radius: 10px;
+     border: 2px solid rgb(12, 15, 12);
+     box-shadow: 0px 1px 10px 2px;
+
+
+  }
+  .a2{
+    background-image: url(/inglish2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-repeat: repeat-y;
+    /* background-attachment: fixed; */
+    /* background-position: center; */
+    /* background: center; */
+    border-radius: 10px;
+    border: 2px solid rgb(12, 15, 12);
+    box-shadow: 0px 1px 10px 2px;
+
+  }
+  .a3{
+    background-image: url(/it\ centr.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+     border: 2px solid rgb(12, 15, 12);
+     box-shadow: 0px 1px 10px 2px;
+      
+  }
+  body{
+    background: rgb(131,58,180);
+    background: linear-gradient(71deg, rgba(131,58,180,1) 21%, rgba(253,29,29,1) 58%, rgba(252,176,69,1) 100%);
+  }
+  h6{
+    color: rgb(210, 198, 221);
+  }
